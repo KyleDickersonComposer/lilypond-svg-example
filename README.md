@@ -4,9 +4,12 @@ This guide explains how to generate music notation using **LilyPond**, export it
 
 ## 1. Install LilyPond
 
-If you haven't installed LilyPond yet, download it from:
+Install lilypond with using a package manager.
 
-🔗 [LilyPond Download](https://lilypond.org/download.html)
+MacOS:
+```sh
+brew install lilypond
+```
 
 ## 2. Create a LilyPond File
 
