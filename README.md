@@ -29,7 +29,7 @@ Run the following command in your terminal to generate an **SVG file**:
 lilypond --svg notation.ly
 ```
 
-Create a pdf by passing `-pdf` instead.
+Create a pdf by passing `--pdf` instead.
 
 This will output a file called `notation.svg` in the same directory.
 
