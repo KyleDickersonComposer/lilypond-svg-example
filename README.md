@@ -32,8 +32,10 @@ Create a new file called `notation.ly` and add the following content:
 Run the following command in your terminal to generate an **SVG file**:
 
 ```sh
-lilypond -dbackend=svg notation.ly
+lilypond --svg notation.ly
 ```
+
+Create a pdf by passing `-pdf` instead.
 
 This will output a file called `notation.svg` in the same directory.
 
