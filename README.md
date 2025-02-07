@@ -52,19 +52,7 @@ Create an `index.html` file and include the SVG:
 </html>
 ```
 
-## 5. Inline SVG Option (Alternative)
-
-Instead of linking an external file, you can **copy-paste** the contents of `notation.svg` directly into your HTML:
-
-```html
-<svg width="500" height="200" viewBox="..."> 
-    <!-- Paste LilyPond-generated SVG content here -->
-</svg>
-```
-
-This keeps your page self-contained.
-
-## 6. Run a Local Server (Optional)
+## 5. Run a Local Server (Optional)
 
 To view the file in a browser without CORS issues, start a simple local server:
 
